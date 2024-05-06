@@ -11,11 +11,11 @@
 
 ul{
   
-  @apply flex gap-8 pt-4 ml-8 
+  @apply flex justify-start gap-6 pt-4 ml-8 mr-96
 }
 
 .header{
-  @apply flex gap-96 justify-end mr-2
+  @apply flex gap-72 bg-black h-16
 }
 .button{
   @apply pt-2 
