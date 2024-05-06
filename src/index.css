@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*,*::before, *::after{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+
+
+ul{
+  
+  @apply flex gap-8 pt-4 ml-8 
+}
+
+.header{
+  @apply flex gap-96 justify-end mr-2
+}
+.button{
+  @apply pt-2 
+}
