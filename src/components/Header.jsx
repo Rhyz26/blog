@@ -2,10 +2,16 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "@mantine/core/styles.css";
 import { Button } from "@mantine/core";
-
+import { useState } from 'react';
 import { MantineProvider } from "@mantine/core";
 
+
+
 function Header() {
+
+
+
+
   return (
     
       <div className="header">
@@ -15,6 +21,14 @@ function Header() {
           </li>
 
          
+
+
+
+  
+  
+
+
+
 
 
           <li className="text-white font-extrabold">

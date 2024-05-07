@@ -15,7 +15,7 @@ ul{
 }
 
 .header{
-  @apply flex gap-72 bg-black h-16
+  @apply flex gap-72 bg-black h-16 border-b-green-600 
 }
 .button{
   @apply pt-2 

@@ -7,6 +7,7 @@ import Home from "./components/Home";
 import Scores from "./components/Scores";
 import World from "./components/World";
 import Wwe from "./components/Wwe";
+import React from "react";
 
 function App() {
   return (
@@ -17,7 +18,6 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/worldfootball" element={<World />} />
-
         <Route path="/wwe" element={<Wwe />} />
         <Route path="/boxing" element={<Boxing />} />
         <Route path="/scores" element={<Scores />} />
