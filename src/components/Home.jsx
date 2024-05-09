@@ -30,7 +30,7 @@ function Home() {
     <MantineProvider>
 
     <div>
-      <div className="flex gap-4 mx-auto max-w-[80%] mt-4">
+      <div className="flex gap-4 mx-auto max-w-[80%] mt-20">
 
       <Card
       shadow="sm"
@@ -45,7 +45,7 @@ function Home() {
           h={400}
           w={600}
           alt="No way!"
-          className=''
+          className='rounded-lg'
           />
       </Card.Section>
 
@@ -71,7 +71,7 @@ function Home() {
           h={400}
           w={600}
           alt="No way!"
-          className=''
+          className='rounded-lg'
           />
       </Card.Section>
 
@@ -87,7 +87,7 @@ function Home() {
 
 
 
-<div className="flex gap-4 mx-auto max-w-[80%] mt-8">
+<div className="flex gap-4 mx-auto max-w-[80%] mt-8 mb-5">
 
 
     <Card
@@ -103,7 +103,7 @@ function Home() {
           h={400}
           w={600}
           alt="No way!"
-          className=''
+          className='rounded-lg'
           />
       </Card.Section>
 
@@ -130,7 +130,7 @@ function Home() {
           h={400}
           w={600}
           alt="No way!"
-          className=''
+          className='rounded-lg'
           />
       </Card.Section>
 
