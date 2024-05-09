@@ -12,27 +12,27 @@ function Header() {
           <Link to="/">N R K</Link>
         </li>
 
-        <li className="text-white font-extrabold hover:underline ">
+        <li className="text-gray-300 font-extrabold hover:border-b-4 hover:text-white">
           <Link to="/">Home</Link>
         </li>
 
-        <li className="text-white font-extrabold hover:underline ">
+        <li className="text-gray-300 font-extrabold hover:border-b-4 hover:text-white">
           <Link to="/about">About</Link>
         </li>
 
-        <li className="text-white font-extrabold hover:underline">
+        <li className="text-gray-300 font-extrabold hover:border-b-4 hover:text-white">
           <Link to="/worldfootball">WORLD FOOTBALL</Link>
         </li>
 
-        <li className="text-white font-extrabold hover:underline">
+        <li className="text-gray-300 font-extrabold hover:border-b-4 hover:text-white">
           <Link to="/wwe">WWE</Link>
         </li>
 
-        <li className="text-white font-extrabold hover:underline">
+        <li className="text-gray-300 font-extrabold hover:border-b-4 hover:text-white">
           <Link to="/boxing">BOXING</Link>
         </li>
 
-        <li className="text-white font-extrabold hover:underline">
+        <li className="text-gray-300 font-extrabold hover:border-b-4 hover:text-white">
           <Link to="/scores">SCORES</Link>
         </li>
       </ul>
