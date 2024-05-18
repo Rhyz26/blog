@@ -3,7 +3,7 @@ import Footer from "./components/Footer";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import About from "./components/About";
 import Boxing from "./components/Boxing";
-import Home from "./components/Home";
+import Home from "./components/Home"
 import Scores from "./components/Scores";
 import World from "./components/World";
 import Wwe from "./components/Wwe";
