@@ -3,8 +3,12 @@ import { Link } from "react-router-dom";
 import "@mantine/core/styles.css";
 import { Button } from "@mantine/core";
 import { MantineProvider } from "@mantine/core";
+import Account from "./Account";
+
 
 function Header() {
+
+
   return (
     <div className="header">
       <ul>
@@ -13,7 +17,8 @@ function Header() {
         </li>
 
         <li className="text-gray-300 font-extrabold hover:border-b-4 hover:text-white">
-          <Link to="/">Home</Link>
+          <Link to="/">Home
+      </Link>
         </li>
 
         <li className="text-gray-300 font-extrabold hover:border-b-4 hover:text-white">
@@ -37,6 +42,7 @@ function Header() {
         </li>
       </ul>
 
+      
       <div className="button">
         <MantineProvider>
           <Button
@@ -46,9 +52,13 @@ function Header() {
             radius="xl"
             className="text-black"
           >
-            Account
+            <Account/>
           </Button>
         </MantineProvider>
+
+        
+
+
       </div>
     </div>
   );

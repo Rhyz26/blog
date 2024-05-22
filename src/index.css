@@ -20,3 +20,57 @@ ul{
 .button{
   @apply pt-2 
 }
+
+.header{
+  font-family: "Oswald", sans-serif;
+}
+
+
+
+
+.dropdown-container {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-trigger {
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  /* Align to right edge */
+  background-color: #de27a1;
+  padding: 10px;
+  list-style: none;
+  width: 150px;
+  /* Set width for the dropdown */
+  max-height: 200px;
+  /* Set max height for scrolling */
+  overflow-y: auto;
+  /* Enable vertical scroll */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  /* Add a slight shadow */
+}
+
+.dropdown-list {
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown-list li {
+  padding: 5px 10px;
+  cursor: pointer;
+  border-bottom: 1px solid RED;
+  /* Add border for separation */
+}
+
+
+.black{
+  font-family: "Oswald", sans-serif;
+  background-color: black;
+}
